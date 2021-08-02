@@ -4,7 +4,8 @@ let image;
 let price;
 
 function setama(){
-  localStorage.setItem("nextp","ama")
+  localStorage.setItem("nextp","ama");
+  localStorage.setItem('topd','amatop');
 };
 function setflip(){
   localStorage.setItem("nextp","flip")
@@ -70,17 +71,10 @@ firebase.database().ref('newlist').
         })
 
         
-
     }
+    /*let load = document.getElementById('p2');
+    load.remove();*/
     let loader = document.getElementById('loader');
     loader.remove();
-
-
   });
-
-
-
-
-
-
 
