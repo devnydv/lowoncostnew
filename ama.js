@@ -59,6 +59,7 @@ firebase.database().ref('newlist').
 
 
     }
+  
 
   });
 
@@ -115,9 +116,13 @@ let val;
 
           })
 
-      }
-      let load = document.getElementById('p2');
-      load.remove();
+      
+      
+    
+    }
+       let loader = document.getElementById('loader');
+       loader.remove();
+       
     })
 
 // }
