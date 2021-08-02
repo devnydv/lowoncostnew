@@ -70,9 +70,12 @@ firebase.database().ref('newlist').
         })
 
         
+
     }
-    let load = document.getElementById('p2');
-    load.remove();
+    let loader = document.getElementById('loader');
+    loader.remove();
+
+
   });
 
 
@@ -131,7 +134,7 @@ firebase.database().ref('newlist').
 //       }
       
 //     })
-    
+   
 // }
 
 
