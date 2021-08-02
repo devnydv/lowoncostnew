@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LowonCost Deals</title>
+    <link rel="stylesheet" href="ama.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="icon" href="dealimg/icon.jpg" type="image/gif" sizes="16x16"> 
+
+
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">LowonCost</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="index.html">Home</a>
+                    <a class="mdl-navigation__link" href="ama.html" onclick="setama()">Amazon</a>
+                    <a class="mdl-navigation__link" href="flip.html" onclick="setflip()">Flipkart</a>
+                    <a class="mdl-navigation__link" href="myn.html" onclick="setmyn()">Myntra</a>
+                    <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">Ajio</a>
+                    
+                    <a target="_blank" class="mdl-navigation__link" rel="noreferrer" href="https://www.facebook.com/Low0ncost/">Facebook Page</a>
+                    
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">LowonCost</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html" >
+                    <img width="22px" src="dealimg/home.svg" alt="img">
+                    
+                    Home</a>
+                <a class="mdl-navigation__link" href="ama.html" onclick="setama()">
+                    <img width="22px" src="dealimg/amai.png" alt="img">
+                    
+                    Amazon
+                </a>
+                <a class="mdl-navigation__link" href="flip.html" onclick="setflip()">
+                    <img width="22px" src="dealimg/f.svg" alt="img">
+                    Flipkart</a>
+                <a class="mdl-navigation__link" href="myn.html" onclick="setmyn()">
+                    <img width="22px" src="dealimg/m.png" alt="img">
+                    
+                    Myntra</a>
+                <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">
+                    <img width="22px" src="dealimg/a.png" alt="img">
+                    Ajio</a>
+                
+                <a class="mdl-navigation__link" rel="noreferrer" href="https://www.facebook.com/Low0ncost/">
+                    <img width="22px" src="dealimg/fb.svg" alt="img">
+                    Facebook Page</a>
+                
+            </nav>
+        </div>
+        <main id="mdl-layout__content">
+            <div id="page-content">
+
+                <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                <div id="hnam">
+                    <h5>Best Deals from Myntra</h5>
+                </div>
+                <div id="father">
+
+                    <!-- <div id="kid">
+                        <button class="site" value="ama" onclick="ama(this)">
+                            <img src="dealimg/ama.jpg" alt="Image">
+                        </button>
+
+                        <button class="site" value="flip" onclick="ama(this)">
+                            <img src="dealimg/flip.jpg" alt="Image">
+                        </button>
+
+                        <button class="site" value="myn" onclick="ama(this)">
+                            <img src="dealimg/myn1.jpg" alt="">
+                        </button> 
+
+                        <button class="site" value="ajio" onclick="ama(this)">
+                            <img src="dealimg/ajio.jpg" alt="">
+                        </button>
+
+                    </div> -->
+
+                </div>
+
+                <div id="but"></div>
+                <div id="bigdiv">
+
+
+                    <p id="top">Top Myntra Deals</p>
+                    <div id="pate">
+
+                    </div>
+
+
+            </div>
+        </main>
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+
+
+
+        <script>
+
+
+            var firebaseConfig =
+            {
+                apiKey: "AIzaSyBuuuZgD-aHy6hm04pWjZ5Jb2F-81GalMc",
+
+                authDomain: "payme-bce76.firebaseapp.com",
+
+                databaseURL: "https://payme-bce76.firebaseio.com",
+
+                projectId: "payme-bce76",
+
+                storageBucket: "payme-bce76.appspot.com",
+
+                messagingSenderId: "829005382798",
+
+                appId: "1:829005382798:web:a31d9602cdc8a1795135df"
+
+            };
+
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+
+        </script>
+        <script src="ama.js">
+        </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

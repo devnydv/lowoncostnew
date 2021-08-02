@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(243, 240, 240);
+}
+
+.mdl-layout__drawer{
+    text-align: left;
+}
+
+.mdl-layout__drawer-button{
+    display: block;
+    visibility: hidden;
+
+}
+
+    h5{
+    text-align: center;
+    
+} 
+
+#hnam{
+    display: grid;
+    background-color: rgb(253, 214, 220);
+    text-align: center;
+}
+
+
+
+/* #kid{
+    padding: 10px;
+    margin: 10px 2px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    
+}
+#kid img{
+    height: 148px;
+    
+} */
+
+/* #kid .site{
+    margin: 10px;
+    min-width: 220px;
+    height: 150px;
+    background-color: white;
+
+
+} */
+
+/* #kid .site:hover{
+    box-shadow: 2px 2px grey;
+} */
+
+#p2{
+    width: 100%;
+    padding: 1px;
+}
+
+#myp{
+    padding: 10px;
+}
+
+
+
+#but{
+    padding: 8px;
+    margin: 5px 0px;
+    background-color: white;
+    box-shadow: 2px 2px lightgray;
+}
+
+#mybut{
+    border-radius: 40px;
+    padding: 5px;
+    margin: 5px;
+    background-color:rgb(247, 194, 194) ;
+}
+
+
+#mybut:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+#bigdiv{
+    background-color: white;
+}
+
+#top{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0%;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+#pate{
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow : 1px  1px 1px 1px lightgray;
+    
+    
+}
+#pate a img{
+    width:99%;
+    max-height:200px;
+    padding: 2px;
+    height: 230px;
+    }
+    
+#pate a{
+    width: 96%;
+    text-decoration: none;
+    }
+
+    
+
+#pate{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    }
+
+    #pate p{
+        color: black;
+        background-color: rgb(247, 194, 194);
+        margin: 0px;
+        padding: 0px;
+        border-radius: 1px
+    }
+
+
+#pate div{
+    
+    width: 99%;
+    border: 1px solid rgb(238, 176, 176);
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    background-color: white;
+    border-radius:2px;
+}
+
+#pate div:hover{
+
+box-shadow: 2px 2px lightgray;
+}
+
+
+
+@media (max-width:1124px) {
+    #pate{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        }
+    }
+
+
+
+@media (max-width:1024px) {
+    .mdl-layout__drawer-button{
+        display: block;
+        visibility: visible;
+    }
+
+    /* #pate{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        } */
+}
+
+
+
+
+
+@media (max-width:964px) {
+    #kid{
+        overflow-x: auto;
+        justify-content: left;
+    }
+
+    #kid::-webkit-scrollbar{
+        width: 0px;
+    }
+    #pate{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        }
+}
+
+
+@media (max-width:764px) {
+    #pate{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        }
+}
+
+@media (max-width:564px) {
+    #pate{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width:364px) {
+        #pate{
+            margin: 10px;
+            padding: 0px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            }
+            #but{
+                padding: 0px;
+                margin: 5px 0px;
+                background-color: white;
+                box-shadow: 1px 1px lightgray;
+            }
+            
+        }
