@@ -1,4 +1,4 @@
-function setama(){
+/*function setama(){
   localStorage.setItem("nextp","ama")
 };
 function setflip(){
@@ -9,12 +9,30 @@ function setmyn(){
 };
 function setajio(){
   localStorage.setItem("nextp","ajio")
-};
+};*/
+
+let maintop;
+let val;
+let getstr=document.getElementById('hnam').textContent;
+let strtrim= getstr.trim();
+let sub= strtrim.substr(16,4)
+console.log(sub)
+if(sub==='Amaz'){
+  maintop='amatop'
+  val='ama'
+}else if (sub === 'Flip') {
+  maintop = 'amatop'
+  val = 'flip'
+}else if (sub === 'Mynt') {
+  maintop = 'newlist'
+  val = 'myn'
+}else if (sub === 'Ajio') {
+  maintop = 'newlist'
+  val = 'ajio'
+}
 
 
-
-
-firebase.database().ref('newlist').
+firebase.database().ref(`${maintop}`).
   on('value', function (snapshot) {
     let data = snapshot.val()
     let key = Object.keys(data);
@@ -26,7 +44,7 @@ firebase.database().ref('newlist').
 
 
 
-      firebase.database().ref('newlist/' + key[i]).
+      firebase.database().ref(`${maintop}/`+ key[i]).
         once('value', function (snapshot) {
           let fd = snapshot.val();
 
@@ -69,13 +87,14 @@ firebase.database().ref('newlist').
 
 
 
-let val;
+
 
 
 //function ama(btm) {
-  val = localStorage.getItem("nextp");
+ /* val = localStorage.getItem("nextp"); */
   let mbut = document.getElementById("but")
   mbut.remove();
+
 
 
 
