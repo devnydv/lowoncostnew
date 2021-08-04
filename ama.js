@@ -97,7 +97,6 @@ firebase.database().ref(`${maintop}`).
 
 
 
-
   firebase.database().ref(val).
     on('value', function (snapshot) {
       let data = snapshot.val()
