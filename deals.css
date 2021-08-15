@@ -120,6 +120,54 @@ h5{
     background-color: white;
 }
 
+#page-content #catego{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+}
+
+#catego .kidmain{
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+}
+
+#catego .kidmain .kid1{
+    text-align: center;
+    margin: 0px 0px 8px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#catego .kidmain .kid1 .img{
+border: 1px solid lightgray;
+margin: 2px;
+
+}
+
+#catego .kidmain .kid1 img{
+    width: 96%;
+    max-height: 180px;
+    margin: 2px;
+    height: 190px;
+}
+#catego .kidmain h1{
+    font-size: 18px;
+    margin: 10px;
+    color: darkblue;
+}
+
+#catego .kidmain p{
+    color: black;
+    background-color: rgb(247, 194, 194);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 1px;
+    margin: 0px 3px 3px 3px;
+    text-decoration: none;
+}
+#catego .kidmain a{
+    text-decoration: none;
+}
 
 
 
@@ -170,6 +218,11 @@ h5{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         }
+    #page-content #catego{
+            
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
 }
 
 @media (max-width:564px) {
@@ -185,6 +238,12 @@ h5{
             padding: 0px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            }
+        #page-content #catego{
+            
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 0px 0px 8px 0px;
             }
         
         }
