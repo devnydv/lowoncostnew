@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(243, 240, 240);
+}
+
+.mdl-layout__drawer{
+    text-align: left;
+}
+
+.mdl-layout__drawer-button{
+    display: block;
+    visibility: hidden;
+
+}
+
+    h5{
+    text-align: center;
+    
+} 
+
+#hnam{
+    display: grid;
+    background-color: rgb(253, 214, 220);
+    
+    text-align: center;
+}
+
+
+
+
+#p2{
+    width: 100%;
+    padding: 1px;
+}
+
+#myp{
+    padding: 10px;
+}
+
+
+
+#but{
+    padding: 8px;
+    margin: 5px 0px;
+    background-color: white;
+    box-shadow: 2px 2px lightgray;
+}
+
+#mybut{
+    border-radius: 40px;
+    padding: 5px;
+    margin: 5px;
+    background-color:rgb(247, 194, 194) ;
+}
+
+
+#mybut:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+#bigdiv{
+    background-color: white;
+}
+
+#top, .top{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0%;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+#pate, .pate{
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    background-color: white;
+    /* box-shadow : 1px  1px 1px 1px lightgrey; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* border: 1px solid lightgray; */
+    
+    
+}
+/* .pate{
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow : 1px  1px 1px 1px lightgray;
+    
+    
+} */
+#pate a img, .pate a img{
+    
+    /* width:99%; */
+    max-height:160px;
+    max-width: 98%;
+    height: 230px;
+    }
+    
+#pate a, .pate a{
+    text-align: center;
+    margin: 2px;
+    width: 91%;
+    padding: 2px;
+    text-decoration: none;
+    border: 1px solid rgb(247, 194, 194);
+    }
+
+
+
+    #pate p, .pate p{
+        color: black;
+        background-color: rgb(247, 194, 194);
+        margin: 0px;
+        padding: 0px;
+        border-radius: 1px;
+        text-align: center;
+
+    }
+
+
+#pate div .pate div{
+    
+    width: 90%;
+    border: 1px solid rgb(238, 176, 176);
+    text-align: center;
+    /* padding: 2px; */
+    background-color: white;
+    border-radius:2px;
+}
+
+#pate div:hover, .pate div:hover{
+
+box-shadow: 2px 2px lightgray;
+}
+
+/* ____________maincat_____________ */
+
+#father{
+    display: flex;
+    justify-content: center;
+}
+#maincat, #mainc{
+    width: 85%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(8, 1fr); */
+}
+#maincat button, #mainc button{
+    display:inline;
+    margin: 10px;
+    padding: 5px;
+    width: 95%;
+    
+    justify-content: center;
+ /* background-color: white; */
+}
+
+#maincat img, #mainc img{
+    width: 89% ;
+    
+}
+
+
+
+@media (max-width:1124px) {
+    #pate{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        }
+    }
+
+
+
+@media (max-width:1024px) {
+    .mdl-layout__drawer-button{
+        display: block;
+        visibility: visible;
+    }
+
+    /* #pate{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        } */
+}
+
+
+
+
+
+@media (max-width:964px) {
+    #kid{
+        overflow-x: auto;
+        justify-content: left;
+    }
+
+    #kid::-webkit-scrollbar{
+        width: 0px;
+    }
+    #pate, .pate{
+        display: grid;
+        
+        grid-template-columns: repeat(4, 1fr);
+        }
+
+        /* #maincat{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(4, 1fr);
+        } */
+}
+
+
+@media (max-width:764px) {
+    #pate, .pate{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        }
+        #maincat{
+            width: 99%;
+            display: grid;
+            margin: 4px;
+            justify-content: center;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #maincat button{
+            margin: 4px;
+            width: 80%;
+            
+        }
+        #maincat img{
+            width: 90%; 
+        }
+        
+}
+#ifr {
+    display: grid;
+    justify-content: center;
+    
+    
+  }
+@media (max-width:564px) {
+    #pate, .pate{
+        
+        margin: 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        }
+
+        
+        #maincat{
+            width: 100%;
+            display: grid;
+            /* justify-content: space-between; */
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #maincat button, #mainc button{
+            
+            margin: 4px 20px;
+            width: 70%;
+        }
+        #maincat img, #mainc img{
+            width: 90%; 
+        }
+        #mainc{
+            width: 99%;
+            display: grid;
+            margin: 4px;
+            justify-content: center;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (max-width:364px) {
+        #pate, .pate{
+            margin: 2px;
+            padding: 2px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            }
+            #pate a, .pate a{
+                width: 98%;
+                text-decoration: none;
+                }
+                #pate p, .pate p{
+                    font-size: 10px;
+                
+                    }
+            #but{
+                padding: 0px;
+                margin: 5px 0px;
+                background-color: white;
+                box-shadow: 1px 1px lightgray;
+            }
+            #maincat{
+                height: 50%;
+                width: 99%;
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            #maincat button, #mainc button{
+                margin: 0px;
+                width: 98%;
+                font-size: 10px;
+                
+            }
+            #maincat img{
+                width: 90%;
+                
+            }
+            
+        }
+
+
+
+
+
+
+
+#loader,
+#loader:before,
+#loader:after {
+  background: #ffffff;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+#loader {
+  color: #ffffff;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+#loader:before,
+#loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+#loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+#loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
