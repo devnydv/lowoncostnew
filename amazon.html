@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="material.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="icon" href="dealimg/icon.jpg" type="image/gif" sizes="16x16">
+    <link rel="icon" href="icon.jpg" type="image/gif" sizes="16x16">
 
 
 </head>
@@ -32,10 +32,9 @@
                     <a class="mdl-navigation__link" href="myntra.html" onclick="setmyn()">Myntra</a>
                     <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">Ajio</a>
 
-                    <!-- <a class="mdl-navigation__link" href="deals.html">About</a> -->
                     <a target="_blank" class="mdl-navigation__link" href="https://www.facebook.com/Low0ncost/">Facebook
                         Page</a>
-                    <!-- <a class="mdl-navigation__link" href="">Offers</a> -->
+
                 </nav>
             </div>
         </header>
@@ -47,7 +46,7 @@
                         home
                     </span>
                     Home</a>
-                <a class="mdl-navigation__link" href="amazon.html" >
+                <a class="mdl-navigation__link" href="amazon.html" onclick="setama()">
                     <span class="material-icons">
                         local_mall
                     </span>
@@ -74,24 +73,63 @@
                         facebook
                     </span>
                     Facebook Page</a>
+
             </nav>
         </div>
         <main id="mdl-layout__content">
             <div id="page-content">
+
 
                 <div id="hnam">
                     <h5>Best Deals from Amazon</h5>
                 </div>
                 <div id="father">
 
+                    <div id="maincat">
+                        <button class="site" value="Electronics" onclick="ama(this)">
+                            <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+                                alt="Image">
+                            Electronics
+                        </button>
+                        <button class="site" value="Tvs & Appliances" onclick="ama(this)">
+                            <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100"
+                                alt="Image">
+                            TVs & Appliances
+                        </button>
+                        <button class="site" value="Men" onclick="ama(this)">
+                            <img src="https://bit.ly/37Kfxx4" alt="image">
+                            Mens Wear
+                        </button>
+                        <button class="site" value="Women" onclick="ama(this)">
+                            <img src="https://bit.ly/2W0bTwX" alt="image">
+                            Womens Wear
+                        </button>
 
+                        <button class="site" value="Home" onclick="ama(this)">
+                            <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_128,w_128/v1629137632/homepage/Home.webp"
+                                alt="Image">
+                            Home and Kitchen
+                        </button>
+                        <button class="site" value="sports" onclick="ama(this)">
+                            <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_128,w_128/v1629177858/homepage/sport.webp"
+                                alt="Image">
+                            Sports
+                        </button>
+                        <button class="site" value="audio" onclick="ama(this)">
+                            <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_128,w_128/v1629178740/homepage/audio.webp"
+                                alt="image">
+                            Audio and Camera
+                        </button>
+                        <button class="site" value="smart" onclick="ama(this)">
+                            <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_128,w_128/v1629179568/homepage/smart_pro.webp"
+                                alt="image">
+                            Smart Technology
+                        </button>
+                    </div>
 
                 </div>
 
-
-                <div id="but">
-
-                </div>
+                <!-- <div id="but"></div> -->
                 <div id="bigdiv">
 
 
@@ -108,40 +146,24 @@
 
 
         <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-
         <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
-
         <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
 
-
-
-
         <script>
-
-
             var firebaseConfig =
             {
                 apiKey: "AIzaSyBuuuZgD-aHy6hm04pWjZ5Jb2F-81GalMc",
-
                 authDomain: "payme-bce76.firebaseapp.com",
-
                 databaseURL: "https://payme-bce76.firebaseio.com",
-
                 projectId: "payme-bce76",
-
                 storageBucket: "payme-bce76.appspot.com",
-
                 messagingSenderId: "829005382798",
-
                 appId: "1:829005382798:web:a31d9602cdc8a1795135df"
-
             };
-
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
-
         </script>
-        <script src="ama.js">
+        <script src="amazon.js">
         </script>
 
 
