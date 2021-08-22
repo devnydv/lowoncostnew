@@ -238,6 +238,10 @@ margin: 2px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         }
+    #des {
+    
+    display:none;
+    
     }
 
     @media (max-width:364px) {
