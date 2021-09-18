@@ -1,0 +1,390 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: lightgray;
+  font-style: arial;
+}
+
+
+
+
+
+/* menu css */
+#hemu{
+  color: white;
+  height: auto;
+  background-color: #1223E4;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px grey;
+}
+#hemu #logo {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+#hemu
+ #mnicon{
+  display: none;
+}
+#hemu a h1{
+  color: white;
+  font-size: 22px;
+  
+  
+}
+#hemu #logo a{
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+#menug ul{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  margin-right: 50px;
+  list-style-type: none;
+}
+#menug a{
+ color: white;
+}
+#menug ul li{
+  margin: 0px 15px;
+  display: inline-block;
+  
+}
+
+
+
+/* first section css */
+#kid{
+  padding: 10px;
+  margin: 10px 2px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  
+}
+#kid img{
+  height: 148px;
+  
+}
+
+#kid .site{
+  margin: 10px;
+  min-width: 220px;
+  height: 150px;
+  background-color: white;
+
+
+}
+
+#kid .site:hover{
+  box-shadow: 2px 2px grey;
+}
+
+/* second section css */
+/* #top1{
+  background-color: antiquewhite;
+  display:flex;
+  
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  margin: 20px 0px;
+  padding: 5px 0px 5px 0px; 
+  
+} */
+
+
+/* #top1 button{
+  padding: 2px;
+  margin: 2px;
+} */
+h2{
+  text-align: center;
+  margin: 30px 0px 10px 0px;
+}
+h3{
+  text-align: center;
+  font-size: 18px;
+}
+
+ .itemscon{
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #E3E3EB;
+  
+}
+
+.itemscon a {
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+  width: 15%;
+  border: 1px solid lightgray;
+}
+
+.itemscon a  h3{
+  font-weight: normal;
+  
+}
+.itemscon   img{
+  height: 150px;
+
+}
+
+.items .vsite{
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+  /* second items lists */
+
+  .itemscon2{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    /* background-color: #E3E3EB; */
+    background-color: antiquewhite;
+    
+  }
+
+  .itemscon2 .newd{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .itemscon2 a{
+    color: rgb(44, 27, 27);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    width: 25%;
+    border: 1px solid lightgray;
+  }
+  .items2 h3{
+    font-weight: normal;
+    
+  }
+
+  .items2 img{
+    height: 150px;
+  
+  }
+  .items2 .vsite{
+    font-size: 12px;
+    margin: 5px 0px;
+  }
+
+  /* footer design */
+
+  #footer{
+    background-color: #c8c8cf;
+    margin: 30px 0px 0px 2px;
+    display: flex;
+    
+    justify-content: center;
+  }
+
+  .elem{
+    
+    width: 24%;
+    margin: 10px 2px;
+    text-align: center;
+  }
+  .elem h4{
+    font-size: 20px;
+    margin: 8px 0px;
+  }
+  .elem p{
+    color: rgb(102, 101, 101);
+    margin: 10px;
+    font-size: 18px;
+  }
+  .elem a{
+    text-decoration: none;
+  }
+
+@media(max-width: 1000px){
+  #kid{
+    overflow-x: auto;
+    justify-content: left;
+  }
+  
+  #kid::-webkit-scrollbar{
+    width: 0px;
+  }
+  .itemscon a{
+    margin: 2px;
+    background-color: white;
+    width: 20%;
+    border: 1px solid lightgray;
+  }
+
+  .itemscon2 {
+    flex-wrap: wrap;
+  }
+  .itemscon2 .newd {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .itemscon2 a{
+    margin: 2px;
+    background-color: white;
+    width: 30%;
+    border: 1px solid lightgray;
+  }
+  
+}
+
+@media(max-width: 700px){
+  #menug{
+  width: 100%; 
+  
+  }
+
+#hemu{
+  /* overflow: auto; */
+  width: 100%;
+  display: block;
+  color: white;
+  justify-content: left;
+  background-color: #0114E8;
+}
+#hemu h1{
+  margin-left: 10px;
+  
+  
+}
+
+#hemu #logo a{
+  text-decoration: none;
+  margin-left: 0px;
+}
+#menug ul{
+  width: 100%;
+  background-color: antiquewhite;
+  /* background-color:#4957F5; */
+  margin: 0px;
+  
+}
+#menug ul li{
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  
+}
+
+#menug  ul li:hover{
+  background-color: rgb(248, 178, 178);
+  
+}
+.notvisi{
+  display: none;
+}
+
+
+
+#hemu #mnicon{
+  display: inline-block;
+  margin: 15px 20px;
+  
+}
+
+
+/* first section css for mobile  */
+#kid{
+  overflow-x: auto;
+  justify-content: left;
+}
+
+#kid::-webkit-scrollbar{
+  width: 0px;
+}
+
+.itemscon{
+  flex-wrap: wrap;
+  
+}
+ .itemscon a{
+  
+  width: 44%; margin:0px;
+  border: 1px solid grey;
+  margin:2px 2px;
+}
+/* .itemscon2{
+  flex-wrap: wrap;
+  
+} */
+.itemscon2 .newd{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itemscon2 a{
+  
+  width: 44%; margin:0px;
+  border: 1px solid grey;
+  margin:2px 2px;
+}
+
+
+
+#footer{
+  background-color: #E3E3EB;
+  margin: 60px 0px 0px 5px;
+  padding: 30px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elem {
+  
+  width: 48%;
+  text-align: center;
+}
+.elem h4{
+  font-size: 20px;
+  margin: 8px 0px;
+}
+.elem p{
+  margin: 10px;
+  font-size: 18px;
+}
+
+}
+
+@media(max-width: 400px){
+  .elem {
+  
+    width: 98%;
+    text-align: center;
+  }
+}
