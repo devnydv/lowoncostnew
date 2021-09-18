@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="alternate" href="http://lowoncost.xyz/" hreflang="x-default" />
-    <meta name="google-site-verification" content="iifYDJ6jkLbkinnWFtaUxYikTjomvkcaVXHO3ItOd_k" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lowest price on all the items on wide range of categories from Amazon, Flipkart, Myntra and ajio. Amazing deals and much more.
-          Chose any category and buy from official store.">
-    <title>LowonCost: Best Deals from Top Stores</title>
-    <link rel="stylesheet" href="deals.css">
-<link rel="apple-touch-icon" href="icon.webp">
-   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
-<link rel="stylesheet" href="mico.css">
-    <link rel="stylesheet" href="material.css">
-   <!-- <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Low on Cost is a simple way to shop online. Look for best product and visit online store from low on cost and see the magic.">
 
-    <link rel="icon" href="icon.webp" type="image/gif" sizes="16x16"> 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XN6RJJZZT0"></script>
+  <title>Lowoncost Deals</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" href="icons/icon.webp" type="image/x-icon">
+  <link rel="apple-touch-icon" href="icon.webp">
+
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XN6RJJZZT0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -34,332 +29,247 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">LowonCost</span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="index.html">Home</a>
-                    <a class="mdl-navigation__link" href="amazon.html" onclick="setama()">Amazon</a>
-                    <a class="mdl-navigation__link" href="flipkart.html" onclick="setflip()">Flipkart</a>
-                    <a class="mdl-navigation__link" href="myntra.html" onclick="setmyn()">Myntra</a>
-                    <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">Ajio</a>
-                    <a target="_blank" class="mdl-navigation__link" href="https://www.facebook.com/Low0ncost/">Facebook Page</a>
-                    
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">LowonCost</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="index.html">
-                    <span class="material-icons">
-                      home
-                    </span>
-                    Home</a>
-                <a class="mdl-navigation__link" href="amazon.html" onclick="setama()">
-                    <span class="material-icons">
-                    local_mall
-                   </span>
-                    Amazon
-                </a>
-                <a class="mdl-navigation__link" href="flipkart.html" onclick="setflip()">
-                    <span class="material-icons">
-                      shop
-                    </span>
-                    Flipkart</a>
-                <a class="mdl-navigation__link" href="myntra.html" onclick="setmyn()">
-                  <span class="material-icons">
-                      shop_two
-                    </span>
-                    Myntra</a>
-                <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">
-                    <span class="material-icons">
-                    local_offer
-                   </span>
-                    Ajio</a>
+  <nav id="hemu">
+    <div id="logo">
+      
+    
+    <img id="mnicon" src="icons/menu_black_24dp.svg" alt="" onclick="notvisi()"/>
+    <a href="index.html"><h1>Lowoncost</h1></a>
+    </div>
+    <div id="menug">
+      <ul id="ul" class="notvisi">
+        <a href="index.html" onclick="setama()"><li>Home</li></a>
+        <a href="amazon.html"><li>Amazon</li></a>
+        <a href="flipkart.html"><li>Flipkart</li></a>
+        <a href="myntra.html"><li>Myntra</li></a>
+        <a href="ajio.html"><li>Ajio</li></a>
+      </ul>
+    </div>
+  </nav>
 
-                <a class="mdl-navigation__link" href="https://www.facebook.com/Low0ncost/">
-                    <span class="material-icons">
-                      facebook
-                    </span>
-                    Facebook Page</a>
-            </nav>
-        </div>
-        <main id="mdl-layout__content">
-            <div id="page-content">
-                
-                <div id="hnam">
-                    <h5>Best Deals from Top Stores</h5>
-                </div>
-                <div id="father">
+  <!-- navigation to store pages -->
+  
+  <div id="father">
 
-                    <div id="kid">
-                        <!-- <button class="site" value="ama" onclick="ama(this)">
-                            <img src="dealimg/ama.jpg" alt="Image">
-                        </button> -->
-                        <a href="amazon.html" onclick="setama()">
-                        <button class="site">
-                            <img src="dealimg/ama.jpg" alt="Image" height="148px" width="219px">
-                        </button>
-                        </a>
-                        <a href="flipkart.html" onclick="setflip()">
-                            <button class="site">
-                                <img src="dealimg/flip.jpg" alt="Image" height="148px" width="219px">
-                            </button>
-                            </a>
-
-                        <!-- <button class="site" value="flip" onclick="ama(this)">
-                            <img src="dealimg/flip.jpg" alt="Image">
-                        </button> -->
-                        <a href="myntra.html" onclick="setmyn()">
-                            <button class="site">
-                                <img src="dealimg/myn1.jpg" alt="Image" height="148px" width="219px">
-                            </button>
-                            </a>
-
-                        <!-- <button class="site" value="myn" onclick="ama(this)">
-                            <img src="dealimg/myn1.jpg" alt="">
-                        </button>  -->
-
-                        <a href="ajio.html" onclick="setajio()">
-                            <button class="site">
-                                <img src="dealimg/ajio.webp" alt="Image" height="148px" width="219px">
-                            </button>
-                            </a>
-                        <!-- <button class="site" value="ajio" onclick="ama(this)">
-                            <img src="dealimg/ajio.jpg" alt="">
-                        </button> -->
-
-                    </div>
-
-                </div>
-
-                <div id="but"></div>
-                <!-- <div id="fload">
-
-                </div> -->
-                <h5 id="top">Top Deals</h5>
-  <div id="loader">Loading...</div>
-                <div id="pate">
-
-                </div>
-                
-                
-                <div id="catego">
-                    <div class="kidmain">
-                        <h1>Top Ajio Deals</h1>
-                            <div class="kid1">
-                                
-                                <a href="https://inr.deals/vysC0J" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://assets.ajio.com/medias/sys_master/root/h1b/h37/13018740654110/campus_black_explore_mid-top_lace-up_casual_shoes.jpg" alt="Casual Shoes">
-                                    <p>Casual Shoes</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/72F60W" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://assets.ajio.com/medias/sys_master/root/20210403/kIVJ/60692137aeb269a9e33ebe26/see_designs_navy_blue_striped_mandarin_collar_long_kurta.jpg" alt="Kurtas & Shirts">
-                                    <p>Kurtas & Shirts</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/M6d5FV" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://assets.ajio.com/medias/sys_master/root/h9c/h2f/15759943729182/puma_black_corode_idp_running_sports_shoes.jpg" alt="Sneakers">
-                                    <p>Sneakers</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/OfqtUe" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://assets.ajio.com/medias/sys_master/root/20200914/lqJW/5f5eeb96aeb269ef8ec21223/-473Wx593H-461400783-white-MODEL.jpg" alt="Tshirt">
-                                    <p>Tshirt</p>
-                                    </div>
-                                </a>
-                            </div>
-                        
-                    </div>
-                    
-
-                    <div class="kidmain">
-                        <h1>Top Myntra Deals</h1>
-                            <div class="kid1">
-                                
-                                <a href="https://inr.deals/8IMYS" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3maZIb8" alt="Tshirt">
-                                    <p>T-Shirts</p>
-                                    </div>
-                                    
-                                </a>
-                                <a href="https://www.myntra.com/men-casual-trousers?plaEnabled=false&sort=price_asc" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3CPDwt6" alt="CasualPants">
-                                    <p>Casual Trousers</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/UiT4K" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3xSyo40" alt="Formal">
-                                    <p>Formal Shirts</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/GZ2BV" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3iJ7yXC" alt="Casual Shirt">
-                                    </div>
-                                    <p>Casual Shirts</p>
-                                </a>
-                            </div>
-                        
-                    </div>
+    <div id="kid">
+        <!-- <button class="site" value="ama" onclick="ama(this)">
+            <img src="dealimg/ama.jpg" alt="Image"  >
+        </button> -->
+        <a href="amazon.html" onclick="setama()">
+            <button class="site">
+                <img src="images/ama.jpg" alt="Image" height="148px" width="219px">
+            </button>
+        </a>
+        <a href="flipkart.html" onclick="setflip()">
+            <button class="site">
+                <img src="images/flip.jpg" alt="Image" height="148px" width="219px">
+            </button>
+        </a>
 
 
-                    <div class="kidmain">
-                        <h1>Top Flipkart Deals</h1>
-                            <div class="kid1">
-                                
-                                <a href="https://inr.deals/PfXJdm" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3sgh7QZ" alt="img">
-                                    <p>Earphones</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/2SQ16O" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/2Xy14CV" alt="Mobile Cases">
-                                    <p>Mobile Cases</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/BY2XjC" rel="nofollow" target="_blank">
-                                    <div class="img" >
-                                    <img src="https://bit.ly/3siTRl9" alt="Power Banks">
-                                    <p>Power Banks</p>
-                                    </div>
-                                </a>
-                                <a href="https://inr.deals/gsRIm4" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://bit.ly/3siwqZc" alt="Screen Guards">
-                                    <p>Screen Guards</p>
-                                    </div>
-                                </a>
-                            </div>
-                        
-                    </div>
+        <a href="myntra.html" onclick="setmyn()">
+            <button class="site">
+                <img src="images/myn1.jpg" alt="Image" height="148px" width="219px">
+            </button>
+        </a>
+
+        <a href="ajio.html" onclick="setajio()">
+            <button class="site">
+                <img src="images/ajio.jpg" alt="Image" height="148px" width="219px">
+            </button>
+        </a>
+
+    </div>
+
+</div>
+
+<!-- top mens wear(first div) -->
+
+  <h2>Best Deals on Mens wear</h2>
+  <div class="itemscon">
+    
+    
+    <a href="https://inr.deals/8IMYS" rel="nofollow"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_300,w_200/v1631870542/indexpage/tshirt.jpg" alt="Item Image" />
+      <h3>Best T-shirt Deals</h3>
+      <p>From Rs. 199</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+    <a href="https://inr.deals/tc5Ji1"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_300,w_200/v1631870669/indexpage/casualtrouser.jpg" alt="Item Image" />
+      <h3>Casual Trouser Deals</h3>
+      <p>From Rs. 349</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+    <a href="https://inr.deals/4RAGZ0"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_250,w_200/v1631891827/indexpage/snacer.jpg" alt="Item Image" />
+      <h3>Top Sneakers</h3>
+      <p>From Rs. 149</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+    <a href="https://inr.deals/GZ2BV" rel="nofollow" ><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_320,w_200/v1631871249/indexpage/casual%20shirt.jpg" alt="Item Image" />
+      <h3>Casual Shirts</h3>
+      <p>From Rs. 149</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+  </div>
+  
+<!-- top wear women second div -->
+
+  
+  <H2>Best Deals on Accessories</H2>
+  <div class="itemscon2">
+    <div class="newd">
+    
+    
+    <a href="https://inr.deals/2SQ16O"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_200,w_200/v1631891360/indexpage/backcase.jpg" alt="Item Image" />
+      <h3>Back Cases</h3>
+      <p>From Rs. 79</p>
+      <p class="vsite">Deals from Flipkart</p>
+    </div></a>
+    <a href="https://amzn.urlvia.com/DPgEtH"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,w_200/v1631891989/indexpage/powerbank.jpg" alt="Item Image" />
+      <h3>Power Banks</h3>
+      <p>From Rs. 299</p>
+      <p class="vsite">Deals from Amazon</p>
+    </div></a>
+    <a href="https://inr.deals/hHb1YU"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_250,w_200/v1631892512/indexpage/datac.jpg" alt="Item Image" />
+      <h3>Data Cables</h3>
+      <p>From Rs. 99</p>
+      <p class="vsite">Deals from Flipkart</p>
+    </div></a>
+    
+    <a href="https://inr.deals/ZrwtfK"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_250,w_200/v1631892716/indexpage/charger.jpg" alt="Item Image" />
+      <h3>Mobile Chargers</h3>
+      <p>From Rs. 149</p>
+      <p class="vsite">Deals from Flipkart</p>
+    </div></a>
+    <a href="https://amzn.urlvia.com/ZV9bgy"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_240,w_200/v1631892873/indexpage/memory.jpg" alt="Item Image" />
+      <h3>Memory Cards</h3>
+      <p>From Rs. 199</p>
+      <p class="vsite">Deals from Amazon</p>
+    </div></a>
+    <a href="https://amzn.urlvia.com/yoKExb"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_scale,h_252,w_200/v1631892998/indexpage/stand.jpg" alt="Item Image" />
+      <h3>Mobile Holders</h3>
+      <p>From Rs. 49</p>
+      <p class="vsite">Deals from Amazon</p>
+    </div></a>
+  </div>
+  </div> 
+  
+  
+<!-- \third div -->
+
+<h2>Best Deals on Womens Wear</h2>
+  <div class="itemscon">
+    
+    
+    <a href="https://inr.deals/d70mcM"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,r_0,w_200,x_0/v1631893155/indexpage/tops.jpg" alt="Item Image" />
+      <h3>TopWear</h3>
+      <p>From Rs. 249</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+    <a href="https://inr.deals/7s9VXq"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631893391/indexpage/sharee.jpg" alt="Item Image" />
+      <h3>Women's Sarees</h3>
+      <p>From Rs. 190</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+  <a href="https://inr.deals/U9qwNV"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631893592/indexpage/kurta.jpg" alt="Item Image" />
+      <h3>Kurtas Kurtis</h3>
+      <p>From Rs. 169</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+    <a href="https://inr.deals/D9h4t2"><div class="items">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631893797/indexpage/lehenga.jpg" alt="Item Image" />
+      <h3>Women's Lehenga Cholis</h3>
+      <p>From Rs. 249</p>
+      <p class="vsite">Deals from Myntra</p>
+    </div></a>
+  </div>
 
 
-                    <div class="kidmain">
-                        <h1>Top Amazon Deals</h1>
-                            <div class="kid1">
-                                
-                                <a href="https://amzn.urlvia.com/qR9D6Q" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://images-na.ssl-images-amazon.com/images/I/71FB8qoB78L._SL1500_.jpg" alt="Budget laptops">
-                                    <p>Budget laptops</p>
-                                    </div>
-                                </a>
-                                <a href="https://amzn.urlvia.com/ziGjNU" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://images-eu.ssl-images-amazon.com/images/I/41MtRzbVtEL._SY445_SX342_QL70_FMwebp_.jpg" alt="Cables">
-                                    <p>Cables</p>
-                                    </div>
-                                </a>
-                                <a href="https://amzn.urlvia.com/quGf4o" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://images-na.ssl-images-amazon.com/images/I/71LL%2Bma2eVL._SL1500_.jpg" alt="Keyboards">
-                                    <p>Keyboards</p>
-                                    </div>
-                                </a>
-                                <a href="https://amzn.urlvia.com/I59uP7" rel="nofollow" target="_blank">
-                                    <div class="img">
-                                    <img src="https://m.media-amazon.com/images/I/51ujkQHMgYS._AC_UL640_FMwebp_QL65_.jpg" alt="Mouse">
-                                    <p>Mouse</p>
-                                    </div>
-                                </a>
-                            </div>
-                        
-                    </div>
-                
-                
-                
-                
-        <div id="des">
 
-                    <h4>What is LowonCost.xyz</h4>
-
-                    <p>LowonCost is a site were you can find top deals from top online stores selling in India like Amazon, Flipkart, Myntra, Ajio etc(other stores are on development). LowonCost.xyz filters these websites and extracts deals for its users. </p>
-
-                    <h4>How it Works.</h4>
-
-                    <p>1.Chose any store from menu. 2. Chose any category that you like. 3.Now chose what you want to buy(Eg. T-shirt) 4. Click on product. A page will open up with a link. That link will take you to the official store. 5. On the official store you will find products at lowest prices. 6. Chose whatever you like and make your purchase. </p>
-
-                    <h4>Why lowoncost</h4>
-
-                    <p>There are thousands of products on these(Amazon, Flipkart, Myntra, Ajio etc) stores. Huge avaivality of products always causes distraction and confusion. We always find it hard to locate best Deals and cost efficient producs. Thats where LowonCost comes inn. We filter best deals and budget friendly products for all your needs. </p>
-
-                </div>
-        
-                
-                
-                
-
-<script defer src="material.js"></script>
-            </div>
-        </main>
+  <h2>Electronics on Low cost</h2>
+  <div class="itemscon2">
+    
+    
+    <div class="newd">
+    <a href="https://amzn.urlvia.com/Jue754"><div class="items2">
+      
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631945982/indexpage/pc.jpg" alt="Item Image" />
+      <h3>Gaming Laptops</h3>
+      <p>From Rs. 20999</p>
+      <p class="vsite">Deals from Amazon</p>
+    </div></a>
+    <a href="https://inr.deals/HKzv0T"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631946246/indexpage/printer.jpg" alt="Item Image" />
+      <h3>Printers & Inks</h3>
+      <p>From Rs. 229</p>
+      <p class="vsite">Deals from Flipkart</p>
+    </div></a>
+    <a href="https://inr.deals/CfrKYb"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631946466/indexpage/bspeker.jpg" alt="Item Image" />
+      <h3>Speakers</h3>
+      <p>From Rs. 229</p>
+    </div></a>
+    <a href="https://inr.deals/SkoKVX"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631956868/indexpage/camera.jpg" alt="Item Image" />
+      <h3>DSLR & Mirrorless</h3>
+      <p>From Rs. 29,990</p>
+    </div></a>
+    <a href="https://amzn.urlvia.com/n7aFQ3"><div class="items2">
+      <img src="https://res.cloudinary.com/dqmlkqhwx/image/upload/c_pad,h_250,w_200/v1631957060/indexpage/tv.jpg" alt="Item Image" />
+      <h3>Televisions</h3>
+      <p>12999</p>
+    </div></a>
+    <a href="https://inr.deals/PfXJdm"><div class="items2">
+      <img src="https://bit.ly/3Ec3EiI" alt="Item Image" />
+      <h3>Headphones</h3>
+      <p>From Rs. 129</p>
+      <p class="vsite">Deals from Flipkart</p>
+    </div></a>
+  </div>
+  </div>
 <!-- Bulletprofit - Ad Display Code -->
 <div id="adm-container-97653"></div><script data-cfasync="false" async type="text/javascript" src="//bulletprofitads.com/display/items.php?97653&14940&970&90&4&0&42"></script>
 <!-- Bulletprofit - Ad Display Code -->
 
+<div id="footer">
+  <div class="elem">
+    <h4>LowonCost</h4>
+    <p>Low on Cost is a simple way to shop online. Look for best product and visit online store from low on cost and see the magic. We filter websites like Amazon, Flipkart, Ajio, Myntra to extract best deals for Indian Consumer. </p>
+  </div>
+  <div class="elem">
+    <h4>Deals</h4>
+    <a href="amazon.html"><p>Amazon Deals</p></a>
+    <a href="flipkart.html"><P>Flipkart Deals</P></a>
+    <a href="myntra.html"><P>Myntra Deals</P></a>
+    <a href="ajio.html"><p>Ajio Deals</p></a>
+  </div>
+  <div class="elem">
+    <h4> Follow and contact</h4>
+    <a href="https://m.facebook.com/Low0ncost/"><p>Facebook</p></a>
+    <!-- <a href=""><p>Instagram</p></a> -->
+  </div>
+  <div class="elem">
+    <h4>More Deals</h4>
+    <a href="https://lowoncostxy.xyz"><p>LownCostxy</p></a>
+  </div>
+</div>
 
 
-        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-
-        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
-
-        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
-
-
-
-
-        <script>
-
-
-            var firebaseConfig =
-            {
-                apiKey: "AIzaSyBuuuZgD-aHy6hm04pWjZ5Jb2F-81GalMc",
-
-                authDomain: "payme-bce76.firebaseapp.com",
-
-                databaseURL: "https://payme-bce76.firebaseio.com",
-
-                projectId: "payme-bce76",
-
-                storageBucket: "payme-bce76.appspot.com",
-
-                messagingSenderId: "829005382798",
-
-                appId: "1:829005382798:web:a31d9602cdc8a1795135df"
-
-            };
-
-            // Initialize Firebase
-            firebase.initializeApp(firebaseConfig);
-
-        </script>
-        <script src="main.js">
-        </script>
-
-
-
-
-
-
-
+  <!-- Project -->
+  <script src="js/main.js"></script>
 
 
 </body>
-
 </html>
