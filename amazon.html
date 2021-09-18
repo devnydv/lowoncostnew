@@ -5,83 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LowonCost Deals</title>
-    <link rel="stylesheet" href="ama.css">
+    <title>LowonCost- Besy Deals from Amazon</title>
+    <link rel="stylesheet" href="css/ama.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="material.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="icon" href="icon.jpg" type="image/gif" sizes="16x16">
+    <!-- <link rel="stylesheet" href="material.css"> -->
+    <!-- <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+    <link rel="icon" href="icons/icon.webp" type="image/gif" sizes="16x16">
 
 
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">LowonCost</span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="index.html">Home</a>
-                    <a class="mdl-navigation__link" href="amazon.html" onclick="setama()">Amazon</a>
-                    <a class="mdl-navigation__link" href="flipkart.html" onclick="setflip()">Flipkart</a>
-                    <a class="mdl-navigation__link" href="myntra.html" onclick="setmyn()">Myntra</a>
-                    <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">Ajio</a>
 
-                    <a target="_blank" class="mdl-navigation__link" href="https://www.facebook.com/Low0ncost/">Facebook
-                        Page</a>
+    <nav id="hemu">
+        <div id="logo">
 
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">LowonCost</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="index.html">
-                    <span class="material-icons">
-                        home
-                    </span>
-                    Home</a>
-                <a class="mdl-navigation__link" href="amazon.html" onclick="setama()">
-                    <span class="material-icons">
-                        local_mall
-                    </span>
-                    Amazon
-                </a>
-                <a class="mdl-navigation__link" href="flipkart.html" onclick="setflip()">
-                    <span class="material-icons">
-                        shop
-                    </span>
-                    Flipkart</a>
-                <a class="mdl-navigation__link" href="myntra.html" onclick="setmyn()">
-                    <span class="material-icons">
-                        shop_two
-                    </span>
-                    Myntra</a>
-                <a class="mdl-navigation__link" href="ajio.html" onclick="setajio()">
-                    <span class="material-icons">
-                        local_offer
-                    </span>
-                    Ajio</a>
 
-                <a class="mdl-navigation__link" href="https://www.facebook.com/Low0ncost/">
-                    <span class="material-icons">
-                        facebook
-                    </span>
-                    Facebook Page</a>
-
-            </nav>
+            <img id="mnicon" src="icons/menu_black_24dp.svg" alt="" onclick="notvisi()" />
+            <a href="index.html"><h1>Lowoncost</h1></a>
         </div>
+        <div id="menug">
+            <ul id="ul" class="notvisi">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="amazon.html" onclick="setama()">
+                    <li>Amazon</li>
+                </a>
+                <a href="flipkart.html" onclick="setflip()">
+                    <li>Flipkart</li>
+                </a>
+                <a href="myntra.html" onclick="setmyn()">
+                    <li>Myntra</li>
+                </a>
+                <a href="ajio.html" onclick="setajio()">
+                    <li>Ajio</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        
+        
         <main id="mdl-layout__content">
             <div id="page-content">
 
 
                 <div id="hnam">
-                    <h5>Best Deals from Amazon</h5>
+                    <h2>Best Deals from Amazon</h2>
                 </div>
                 <div id="father">
 
@@ -163,7 +140,7 @@
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
         </script>
-        <script src="amazon.js">
+        <script src="js/amazon.js">
         </script>
 
 
