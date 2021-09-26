@@ -5,3 +5,7 @@ http://lowoncost.xyz/myntra.html
 http://lowoncost.xyz/ajio.html
 https://cricketkascore.lowoncost.xyz/
 https://newsfatafat.lowoncost.xyz
+https://newsfatafat.lowoncost.xyz/sports.html
+https://newsfatafat.lowoncost.xyz/entertainment.html
+https://newsfatafat.lowoncost.xyz/sciencenews.html
+https://newsfatafat.lowoncost.xyz/technews.html
