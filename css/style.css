@@ -1,5 +1,3 @@
-
-
 *{
   margin: 0px;
   padding: 0px;
@@ -32,11 +30,12 @@ body{
  #mnicon{
   display: none;
 }
-#hemu a h1{
+#hemu a p{
   color: white;
   font-size: 22px;
-  
-  
+}
+#hemu a{
+  text-decoration: none;
 }
 #hemu #logo a{
   text-decoration: none;
@@ -58,8 +57,24 @@ body{
   display: inline-block;
   
 }
-
-
+/* api div section  */
+#apimenuitems{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  background-color:antiquewhite ;
+}
+#omenu{
+  margin-top:2px ;
+  background-color: antiquewhite;
+  box-shadow: 1px 1px 5px grey;
+}
+#apimenuitems a{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+}
 
 /* first section css */
 #kid{
@@ -233,7 +248,7 @@ h3{
     width: 0px;
   }
   .itemscon a{
-    margin: 4px;
+    margin: 2px;
     background-color: white;
     width: 20%;
     border: 1px solid lightgray;
@@ -250,7 +265,7 @@ h3{
   }
 
   .itemscon2 a{
-    margin: 4px;
+    margin: 2px;
     background-color: white;
     width: 30%;
     border: 1px solid lightgray;
@@ -272,7 +287,7 @@ h3{
   justify-content: left;
   background-color: #0114E8;
 }
-#hemu h1{
+#hemu p{
   margin-left: 10px;
   
   
@@ -315,8 +330,12 @@ h3{
   margin: 15px 20px;
   
 }
+/* api div section  */
+#apimenuitems{
+  width: 100%;
+  
 
-
+  }
 /* first section css for mobile  */
 #kid{
   overflow-x: auto;
@@ -335,7 +354,7 @@ h3{
   
   width: 44%; margin:0px;
   border: 1px solid grey;
-  margin:2px 2px;
+  margin:4px 4px;
 }
 /* .itemscon2{
   flex-wrap: wrap;
@@ -351,7 +370,7 @@ h3{
   
   width: 44%; margin:0px;
   border: 1px solid grey;
-  margin:2px 2px;
+  margin:4px 4px;
 }
 
 
@@ -387,4 +406,137 @@ h3{
     width: 98%;
     text-align: center;
   }
+
+  #apimenuitems a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#news {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /* text-align: center;
+  padding: 20px;
+  background-color: #B9BBCD;
+  border-radius: 5px;
+  margin-top: 10px; */
+  
+}
+
+
+/* #snews{
+  text-align: center;
+  margin:  20px 0px 10px 0px;
+}
+
+
+#news{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.kid1{
+  background-color: #E2E3EF;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+  
+}
+
+#news .kid1 p{
+  margin:10px 10px 50px 10px;
+  font-weight: bolder;
+  text-align: justify;
+  font-size: 20px;
+}
+#news .kid1 .para{
+  font-weight: 400;
+  margin-bottom: 10px;
+  
+}
+#news .kid1 a{
+  margin:10px 10px;
+  text-decoration: none;
+  color:blue;
+  
+} */
+
+/* @media (max-width: 800px) {
+  
+} */
+
+
+
+@media(max-width: 700px){
+  
+#news{
+  width: 90%;
+  grid-template-columns: repeat(1,1fr);
+}
+
+}
+
+/* @media(max-width: 400px){
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #sct {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  background-color: #B9BBCD;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+} */
